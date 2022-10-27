@@ -8,7 +8,7 @@ var current = new Date();
 /* Configuration */
 const app = express ();
 const port = process.env.PORT || 3001;
-const connection_url = "mongodb+srv://admin:aa123456@cluster0.qyrekvg.mongodb.net/VinylDB?retryWrites=true&w=majority";
+const connection_url = "mongodb+srv://URL";
 
 /* Middleware */
 app.use(express.json());
