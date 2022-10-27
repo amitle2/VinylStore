@@ -1,0 +1,20 @@
+.summary {
+  max-width: 60rem;
+  width: 90%;
+  margin: auto;
+  margin-top: -10rem;
+  position: relative;
+  color: white;
+  padding-top: 200px;
+}
+
+.summary > h2 {
+    font-size: 25px;
+    color: #D51977;
+}
+
+.contact > p {
+    color: #3DA7A7;
+    text-align: left;
+    font-size: 15px;
+}

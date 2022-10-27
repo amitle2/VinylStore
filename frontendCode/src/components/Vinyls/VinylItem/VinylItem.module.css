@@ -1,0 +1,77 @@
+.Vinyl {
+  margin: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #D51977;
+}
+
+.Vinyl h3 {
+  margin: 0 0 0.25rem 0;
+  text-align: left;
+  font-size: 23px;
+  color: #422F4F;
+}
+
+.description {
+  font-style: italic;
+  margin-top: 17px;
+  text-align: left;
+  font-size: 18px;
+  color: #422F4F;
+}
+
+.price {
+  margin-top: 0.25rem;
+  font-weight: bold;
+  color: #D51977;
+  font-size: 2rem;
+  text-align: left;
+}
+
+.image {
+  height: 300px;
+  border-radius: 150px;
+  border-style: solid ;
+  border-color: black;
+  color: black;
+  border-width:85px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 1cm;
+  align-items: center;
+  text-align: right;
+}
+
+.product {
+    text-align: center;
+    zoom: 1.5;
+  }
+
+.order {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+@media (max-width: 500px) {
+    .product {
+        text-align: center;
+        zoom: 0.8;
+      }
+
+      .Vinyl h3 {
+        margin: 0 0 0.25rem 0;
+        text-align: left;
+        font-size: 18px;
+        color: #422F4F;
+      }
+      
+      .description {
+        font-style: italic;
+        margin-top: 17px;
+        text-align: left;
+        font-size: 13px;
+        color: #422F4F;
+      }
+}
+
+
